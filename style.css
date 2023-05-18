@@ -1,0 +1,51 @@
+#sensorbar{
+    background:#303030;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    margin:10px;
+}
+
+html,body{
+    background:black;
+}
+
+*{
+    color:white;
+    font-family: monospace;
+}
+
+input, button{
+    background:#404040;
+    border: 1px solid turquoise;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#606060;
+}
+button:focus, input:focus{
+    border-color:teal;
+}
+
+button:active{
+    border-color:green;
+}
+
+sensor{
+    border:1px solid turquoise;
+    border-radius:5px;
+    padding:5px;
+}
+condot{
+    min-width:10px;
+    min-height:10px;
+    display:inline-block;
+    border-radius:100%;
+    background:red;
+    content:'';
+}
+
+condot.connected{
+    background:lightgreen;
+}
